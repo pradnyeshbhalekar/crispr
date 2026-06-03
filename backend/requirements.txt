@@ -4,8 +4,9 @@ stable-ts
 pydub
 deepfilternet
 torch==2.1.2 
-torchaudio==2.1.2
+torchaudio==2.4.0
 transformers
 numpy
 ffmpeg-python
 accelerate>=1.1.0
+flask_cors
