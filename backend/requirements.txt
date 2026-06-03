@@ -3,8 +3,9 @@ openai-whisper
 stable-ts
 pydub
 deepfilternet
-torch
-torchaudio
+torch==2.1.2 
+torchaudio==2.1.2
 transformers
 numpy
 ffmpeg-python
+accelerate>=1.1.0
