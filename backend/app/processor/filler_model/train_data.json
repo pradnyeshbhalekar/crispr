@@ -1,0 +1,682 @@
+[
+  {
+    "text": "[TARGET] like [CONTEXT] I like this caf\u00e9 because",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] She doesn\u2019t like spicy food very",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] I\u2019d like to leave a",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] They like watching movies together",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] I really like your new apartment",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] Would you like another cup of",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] Kids usually like places with bright",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] I like how simple this",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] He looks like his older brother.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] I\u2019d like some time to",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] You sound like you\u2019re getting sick.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] They like going on long",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] I like when it rains",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] This tastes like something my mom",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] She\u2019d like a refund for",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] I was tired so I went home",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] She spoke so quietly that nobody",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] The bag was so heavy I couldn\u2019t",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] He studied hard so he could pass",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] It was so cold outside this",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] I was hungry so I ordered extra",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] The movie was so long we left",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] She smiled so brightly that everyone",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] woke up late so I missed the",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] He whispered so softly I could",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] The room was so crowded we couldn\u2019t",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] I practiced daily so my timing improved.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] She ran so fast nobody could",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] It was so dark I couldn\u2019t",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] I saved money so I could buy",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] The food was okay but nothing special.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] Your presentation was okay overall.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] I\u2019m okay with waiting another",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] movie was just okay honestly.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] Is it okay if I leave",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] Her grades were okay despite missing classes.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] The design looks okay on mobile devices.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] I\u2019m okay now after getting",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] audio quality sounds okay to me.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] Everything turned out okay in the end.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] That solution is okay for a temporary",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] said it was okay to reschedule.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] Your timing is okay but needs improvement.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] battery life is okay for daily use.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] I\u2019m not okay with people arriving",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] Turn right at the next",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] You got the right answer on the",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] That doesn\u2019t feel right to me at",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] She was right about the weather",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] I injured my right shoulder during practice.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] He made the right decision by leaving",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] The right side of the",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] You were absolutely right about the deadline.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] finally started going right for once.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] The right tool makes debugging",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] car on the right side.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] That answer sounds right based on the",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] You picked the right time to call",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] The right password finally unlocked",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] She sings really well during live performances.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] project went surprisingly well overall.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] The app runs well even on old",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] I slept well for the first",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] The patient recovered well after surgery.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] They work well together as a",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] The engine performs well in cold weather.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] The movie was well directed and emotional.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] Everything ended well despite the confusion.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] The software scales well under heavy traffic.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] He adapted well to the new",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] That strategy worked well for our team.",
+    "label": 0
+  },
+  {
+    "text": "[TARGET] um [CONTEXT] um I don\u2019t really know what to say here",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] um [CONTEXT] I was, um, trying to call you earlier",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] um [CONTEXT] um maybe we should wait a little longer",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] um [CONTEXT] I think um we missed the correct exit",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] um [CONTEXT] um can somebody explain this again",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] um [CONTEXT] I was um honestly kind of confused",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] um [CONTEXT] um I forgot where I parked the car",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] um [CONTEXT] we should um probably leave now",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] um [CONTEXT] um that\u2019s not exactly what I meant",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] uh [CONTEXT] uh I think your microphone is muted",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] uh [CONTEXT] I uh forgot to send the email",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] uh [CONTEXT] uh maybe this isn\u2019t the best idea",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] uh [CONTEXT] can you uh repeat that one more time",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] uh [CONTEXT] uh I wasn\u2019t really paying attention",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] uh [CONTEXT] we should uh probably start now",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] uh [CONTEXT] uh I left my wallet at home",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] uh [CONTEXT] I was uh trying to explain that earlier",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] uh [CONTEXT] uh this line is taking forever",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] like I didn\u2019t even know they were coming",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] I was like really tired yesterday",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] like this whole thing feels unnecessary",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] we were like standing there for hours",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] like why would anyone do that",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] I was like honestly shocked",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] like nobody told me there was homework",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] it was like super awkward in there",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] like [CONTEXT] like I seriously thought he was joking",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] you know [CONTEXT] you know I wasn\u2019t expecting that answer",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] you know [CONTEXT] it\u2019s just you know kind of stressful",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] you know [CONTEXT] you know maybe we should leave early",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] you know [CONTEXT] I was you know trying my best",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] you know [CONTEXT] you know this feels really weird",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] you know [CONTEXT] it\u2019s you know harder than it looks",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] you know [CONTEXT] you know I completely forgot about that",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] you know [CONTEXT] we were you know waiting outside forever",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] you know [CONTEXT] you know I don\u2019t really blame him",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] basically [CONTEXT] basically we missed the entire meeting",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] basically [CONTEXT] I basically forgot everything I studied",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] basically [CONTEXT] basically this app keeps crashing randomly",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] basically [CONTEXT] we basically waited there all day",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] basically [CONTEXT] basically nobody knew what was happening",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] basically [CONTEXT] I was basically doing all the work",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] basically [CONTEXT] basically we need to start over",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] basically [CONTEXT] he basically ignored every message",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] basically [CONTEXT] basically I have no clue anymore",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] so I was thinking we could leave early",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] so what exactly are we doing here",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] I mean so nobody told me beforehand",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] so I accidentally deleted the folder",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] we were so just waiting outside",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] so that\u2019s kind of awkward honestly",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] so are we meeting tomorrow too",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] I was so trying to explain that",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] so [CONTEXT] so maybe we should call them first",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] okay I think I understand now",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] okay maybe let\u2019s slow down a bit",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] I mean okay that\u2019s kind of strange",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] okay can someone explain this again",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] we should okay probably leave now",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] okay I honestly forgot about that",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] okay this is getting confusing",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] I was okay trying to fix it earlier",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] okay [CONTEXT] okay maybe tomorrow will be better",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] right I completely forgot about the deadline",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] right so we\u2019re meeting at six",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] I mean right that\u2019s understandable",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] right maybe we should wait outside",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] we were right kind of confused honestly",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] right nobody told me about the change",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] I was right trying to explain earlier",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] right this whole thing feels weird",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] right [CONTEXT] right I think we\u2019re ready now",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] well I didn\u2019t really expect that",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] well maybe we should just leave",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] I mean well that\u2019s unfortunate",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] well nobody warned me about traffic",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] we were well kind of stuck there",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] well I honestly don\u2019t know anymore",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] well are we starting or not",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] I was well trying to help",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] well [CONTEXT] well this got awkward really fast",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] actually [CONTEXT] actually I didn\u2019t even notice that",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] actually [CONTEXT] I was actually trying to call you",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] actually [CONTEXT] actually maybe we should rethink this",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] actually [CONTEXT] actually I forgot my laptop today",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] actually [CONTEXT] we were actually waiting for you outside",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] actually [CONTEXT] actually this makes more sense now",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] actually [CONTEXT] I actually didn\u2019t mean it like that",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] actually [CONTEXT] actually nobody expected that result",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] actually [CONTEXT] actually I have no idea what happened",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] honestly [CONTEXT] honestly I don\u2019t really care anymore",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] honestly [CONTEXT] I was honestly kind of nervous",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] honestly [CONTEXT] honestly this whole thing feels pointless",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] honestly [CONTEXT] we were honestly just waiting around",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] honestly [CONTEXT] honestly I forgot there was homework",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] honestly [CONTEXT] honestly maybe we should cancel it",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] honestly [CONTEXT] I honestly didn\u2019t expect that answer",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] honestly [CONTEXT] honestly this app is confusing me",
+    "label": 1
+  },
+  {
+    "text": "[TARGET] honestly [CONTEXT] honestly I have no energy today",
+    "label": 1
+  }
+]
