@@ -1,0 +1,10 @@
+flask
+openai-whisper
+stable-ts
+pydub
+deepfilternet
+torch
+torchaudio
+transformers
+numpy
+ffmpeg-python
