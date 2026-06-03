@@ -13,12 +13,12 @@ def splice_audio(audio_path: str, fillers: list[dict], output_path: str, crossfa
         audio.export(output_path, format="mp3")
         return output_path
     
-    # sort fillers by start time just in case
+
     fillers = sorted(fillers, key=lambda x: x["start"])
     
-    # build list of segments to KEEP (everything that's not a filler)
+
     keep_segments = []
-    cursor = 0  # in milliseconds
+    cursor = 0 
     
     for filler in fillers:
         filler_start_ms = int(filler["start"] * 1000)
