@@ -42,22 +42,18 @@ The pipeline runs in five stages:
 
 ```
 crispr/
-├── backend/
-│   ├── app.py                  # Flask app entry point
-│   ├── pipeline/
-│   │   ├── transcribe.py       # stable-ts transcription
-│   │   ├── classify.py         # DistilBERT filler detection
-│   │   ├── segment.py          # Timestamp-based segmentation
-│   │   ├── edit.py             # pydub audio cutting
-│   │   └── denoise.py          # DeepFilterNet post-processing
-│   └── model/
-│       └── distilbert_filler/  # Fine-tuned model weights
-├── frontend/
-│   ├── src/
-│   │   └── App.jsx
-│   └── public/
+├── app/
+│   └── processor/
+│       ├── filler_model/       # Fine-tuned DistilBERT model weights
+│       ├── __init__.py
+│       ├── denoiser.py         # DeepFilterNet noise reduction
+│       ├── filler.py           # DistilBERT filler word classification
+│       ├── splicer.py          # pydub audio cutting
+│       └── transcribe.py       # stable-ts transcription
+├── app.py                      # Flask app entry point
 ├── requirements.txt
-└── README.md
+├── test_transcribe.py
+└── .gitignore
 ```
 
 ---
@@ -67,23 +63,13 @@ crispr/
 ### Prerequisites
 
 - Python 3.9+
-- Node.js 18+
 - FFmpeg installed and on PATH
 
-### Backend
+### Install & Run
 
 ```bash
-cd backend
 pip install -r requirements.txt
 python app.py
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
 ```
 
 ---
@@ -104,7 +90,7 @@ The filler word classifier is a DistilBERT model fine-tuned on labeled transcrip
 To retrain the model:
 
 ```bash
-cd backend/model
+cd app/processor/filler_model
 python train.py
 ```
 
